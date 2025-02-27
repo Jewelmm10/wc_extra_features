@@ -135,7 +135,8 @@ function show_selected_addons_on_product_page() {
     $selected_addons = get_post_meta($post->ID, '_selected_addons', true);
 
     if (!empty($selected_addons)) {
-        echo '<div class="product-addons"><h5>Available Addons</h5>';
+        echo '<div class="product-addons"><h5>Available Services</h5>';
+        
         foreach ($selected_addons as $addon_id) {
             $addon_title = get_the_title($addon_id);
             $addon_price = get_post_meta($addon_id, 'addon_price', true);
