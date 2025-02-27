@@ -12,7 +12,7 @@ This WooCommerce addon for the Astra child theme allows store owners to offer ex
 
 ## Installation
 1. Download the child theme zip file or clone the repository.
-2. Rename the folder to `/astra-child/`.
+2. Rename the folder to <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" width="24"> `astra-child`.
 3. Upload the child theme to the `/wp-content/themes/` directory.
 4. Activate the Astra child theme through the "Appearance > Themes" menu in WordPress.
 5. Configure settings in the WooCommerce product edit page.
