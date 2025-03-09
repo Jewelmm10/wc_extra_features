@@ -147,16 +147,16 @@ function show_selected_addons_on_product_page() {
 
     ?>
     <script>
-    jQuery(document).ready(function($) {
-        var basePrice = <?php echo get_post_meta(get_the_ID(), '_price', true); ?>;
-        $('input[name="extra_addons[]"]').change(function() {
-            var totalPrice = basePrice;
-            $('input[name="extra_addons[]"]:checked').each(function() {
-                totalPrice += parseFloat($(this).data('price'));
-            });
-            $('.woocommerce-Price-amount').text('$' + totalPrice.toFixed(2));
-        });
-    });
+    // jQuery(document).ready(function($) {
+    //     var basePrice = <?php echo get_post_meta(get_the_ID(), '_price', true); ?>;
+    //     $('input[name="extra_addons[]"]').change(function() {
+    //         var totalPrice = basePrice;
+    //         $('input[name="extra_addons[]"]:checked').each(function() {
+    //             totalPrice += parseFloat($(this).data('price'));
+    //         });
+    //         $('.woocommerce-Price-amount').text('$' + totalPrice.toFixed(2));
+    //     });
+    // });
     </script>
     <?php
 }
